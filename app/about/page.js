@@ -10,7 +10,7 @@ export default function AboutPage() {
     <main className={styles.page}>
       <header className={styles.header}>
         <a href="/" aria-label="MINIMAL home" className={styles.logoLink}>
-          <img src="/minimal-logo.svg" alt="MINIMAL" className={styles.logo} />
+          <img src="/minimal-wordmark-light.svg" alt="MINIMAL" className={styles.logo} />
         </a>
         <a href="/" className={styles.back}>Back / Home</a>
       </header>
