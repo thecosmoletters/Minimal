@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">MINIMAL wordmark — light</title>
+  <desc id="desc">Lightweight spaced MINIMAL wordmark with an extended central vertical signature line.</desc>
+  <g fill="#202020" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="78" font-weight="300" text-anchor="middle">
+    <text x="170" y="142">M</text>
+    <text x="295" y="142">I</text>
+    <text x="420" y="142">N</text>
+    <text x="690" y="142">M</text>
+    <text x="815" y="142">A</text>
+    <text x="940" y="142">L</text>
+  </g>
+  <line x1="555" y1="62" x2="555" y2="248" stroke="#202020" stroke-width="3" stroke-linecap="square"/>
+</svg>
