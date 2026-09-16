@@ -36,7 +36,7 @@ export default function AboutPage() {
 
       <section className={styles.balance}>
         <div className={styles.mark}>
-          <img src="/open-m-crop.png" alt="MINIMAL Open-M mark" />
+          <img src="/open-m.svg" alt="MINIMAL Open-M mark" />
         </div>
         <div className={styles.balanceCopy}>
           <div className={styles.kicker}>The mark / Balance</div>
