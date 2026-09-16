@@ -40,6 +40,6 @@ export default function CollectionPage(){
       <div><span>THE SYSTEM / 2026</span><h2>Nothing added<br/>without reason.</h2><p>MINIMAL is built around the space between restraint and expression. Details earn their place. Silhouettes carry the identity.</p></div>
     </section>
 
-    <footer><img src="/minimal-logo.svg" alt="MINIMAL"/><span>Balance / Form / Function</span><span>© 2026 MINIMAL</span></footer>
+    <footer className={styles.footer}><img src="/minimal-logo.svg" alt="MINIMAL"/><span>Balance / Form / Function</span><span>© 2026 MINIMAL</span></footer>
   </main>
 }
