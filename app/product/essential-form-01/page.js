@@ -1,0 +1,57 @@
+import styles from './page.module.css';
+
+export const metadata = {
+  title: 'Essential Form 01 — MINIMAL',
+  description: 'Essential Form 01 / Chalk by MINIMAL.',
+};
+
+export default function ProductPage() {
+  return (
+    <main className={styles.page}>
+      <header className={styles.header}>
+        <a href="/" className={styles.logo}><img src="/minimal-logo.svg" alt="MINIMAL" /></a>
+        <nav><a href="/collection">Collection</a><a href="/about">About</a></nav>
+      </header>
+
+      <section className={styles.product}>
+        <div className={styles.gallery}>
+          <figure className={styles.primary}><img src="/look-essential.png" alt="Essential Form 01 in chalk" /></figure>
+          <figure><img src="/editorial-grey.png" alt="MINIMAL editorial detail" /></figure>
+          <figure><img src="/editorial-motion.png" alt="MINIMAL movement study" /></figure>
+        </div>
+
+        <aside className={styles.info}>
+          <div className={styles.eyebrow}>LOOK 01 / ESSENTIAL FORM</div>
+          <h1>Essential Form 01<br/><span>Chalk</span></h1>
+          <div className={styles.price}>৳ 4,900</div>
+          <p className={styles.copy}>An oversized off-white sweatshirt built around relaxed proportion and quiet structure. Designed to sit naturally with washed wide-leg denim and the rest of the MINIMAL wardrobe system.</p>
+
+          <div className={styles.rule} />
+          <div className={styles.optionLabel}>Select size</div>
+          <div className={styles.sizes}><button>S</button><button className={styles.active}>M</button><button>L</button><button>XL</button></div>
+          <button className={styles.add}>Add to bag</button>
+
+          <div className={styles.meta}>
+            <div><span>Material</span><p>Heavy cotton jersey</p></div>
+            <div><span>Fit</span><p>Oversized / dropped shoulder</p></div>
+            <div><span>Colour</span><p>Chalk</p></div>
+            <div><span>Care</span><p>Cold wash / dry flat</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section className={styles.story}>
+        <div className={styles.storyCopy}><div className={styles.eyebrow}>FORM / 01</div><h2>Reduced until<br/>only proportion remains.</h2><p>Essential Form 01 is less about decoration and more about balance: volume above, weight below, and enough restraint to let both pieces hold their own.</p></div>
+        <div className={styles.mark}><img src="/open-m.svg" alt="MINIMAL Open-M mark" /></div>
+      </section>
+
+      <section className={styles.related}>
+        <div className={styles.relatedHead}><h2>Continue the system</h2><a href="/collection">View collection →</a></div>
+        <div className={styles.relatedGrid}>
+          <a href="/collection"><img src="/look-leather.png" alt="Leather Structure 02" /><span>Leather Structure 02 / Black</span></a>
+          <a href="/collection"><img src="/look-utility.png" alt="Utility Layer 03" /><span>Utility Layer 03 / Umber</span></a>
+        </div>
+      </section>
+    </main>
+  );
+}
