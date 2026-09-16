@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'MINIMAL — Only What Matters.',
-  description: 'MINIMAL brand experience concept.',
+  title: 'MENIMAL — Only What Matters.',
+  description: 'MENIMAL brand experience concept.',
 };
 
 export default function RootLayout({ children }) {
