@@ -9,7 +9,7 @@ export default function ProductPage() {
   return (
     <main className={styles.page}>
       <header className={styles.header}>
-        <a href="/" className={styles.logo}><img src="/minimal-logo.svg" alt="MINIMAL" /></a>
+        <a href="/" className={styles.logo}><img src="/minimal-wordmark-light.svg" alt="MINIMAL" /></a>
         <nav><a href="/collection">Collection</a><a href="/about">About</a></nav>
       </header>
 
