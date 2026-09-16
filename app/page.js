@@ -20,7 +20,7 @@ export default function Home() {
     <main className="shell">
       <header className="brand-header">
         <a className="logo" href="/" aria-label="MINIMAL home">
-          <img src="/minimal-wordmark-crop.png" alt="MINIMAL" style={{ width: 'clamp(210px, 18vw, 320px)', height: 'auto', display: 'block' }} />
+          <img src="/minimal-logo.svg" alt="MINIMAL" style={{ width: 'clamp(210px, 18vw, 320px)', height: 'auto', display: 'block' }} />
         </a>
       </header>
       <section className="hero" id="home"><button className="menu-toggle" aria-label="Open menu" onClick={() => setMenuOpen(true)}><span /></button><div className="hero-right">COLLECTION / 01</div><div className="hero-art"><img src="/hero-minimal.jpg" alt="MINIMAL monochrome campaign hero" /></div><div className="hero-copy">Only what matters. <span>— Collection 01</span></div><button className="hero-cta" onClick={() => document.querySelector('#collection')?.scrollIntoView({ behavior: 'smooth' })}>Explore</button></section>
